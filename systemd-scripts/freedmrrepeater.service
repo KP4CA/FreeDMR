@@ -13,7 +13,7 @@ User=root
 
 WorkingDirectory=/opt/FreeDMR
 
-ExecStart=/usr/bin/python3 bridge_master.py -c ./config/hblink.cfg -r ./config/rules.py
+ExecStart=/usr/bin/python3 bridge_master.py -c ./config/FreeDMR.cfg -r ./config/rules.py
 
 
 
